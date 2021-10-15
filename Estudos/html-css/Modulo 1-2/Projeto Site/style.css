@@ -1,0 +1,237 @@
+@charset "UTF-8";
+@font-face {
+    font-family: bebasneue ;
+    src: url('fontes/bebasneue.ttf') format('opentype');
+}
+@font-face {
+    font-family: android;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+:root {
+ --cor0: #c5ebd6;
+ --cor1: #83e1ad;
+ --cor2: #3ddc84;
+ --cor3: #2fa866;
+ --cor4: #1a5c37;
+ --cor5: #063d1e;
+
+ --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+ --fonte-destaque: 'Bebas Neue', cursive;
+ --fonte-android: 'Android', cursive;
+}
+
+header {
+    font-family: var(--fonte-destaque);
+    background-color: transparent;
+    height: 200px;
+    background-image: linear-gradient(to top, #063D1E, #2FA866);
+    box-shadow: 2px 2px 2px black;
+    min-width: none;
+   
+}
+h1 {
+    font-family: var(--fonte-padrao);
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    text-shadow: 2px 2px 2px black;
+    min-width: none;
+    
+    
+    
+    }
+    h4 {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-shadow: 2px 2px 2px black;
+        min-width: none;
+    }
+    nav {
+        background-color: #063D1E;
+        align-items: center;
+        height: 22px;
+        box-shadow: 2px 2px 2px black;
+        
+        
+        
+    }
+    
+    span {
+        background-color: #063D1E;
+        margin: auto;
+        padding: 2px 15px;
+        color: #83E1AD;
+        font: 15px Arial, Helvetica, serif;
+        font-weight: bolder;
+        
+        
+               
+    }
+
+    nav > span:hover  {
+        display: flexbox;
+        color: #063D1E;
+        background-color: #3ddc8567;
+        height: 30px;
+        border-radius: 30px 30px;
+        text-shadow: 1px 1px 1px black;
+        
+        
+       
+    }
+
+    body {
+        background-color: var(--cor0);
+        
+        
+    }
+
+    main{
+        background-color: white;
+        padding: 30px;
+        margin: auto;
+        min-width: none;
+        box-shadow: 0px 4px 2px black;
+        min-width: 400px;
+        max-width: 800px;
+        
+
+        
+    }
+
+    h1#titulo01 {
+        font-size: 45px;
+        text-align: left;
+        font-family: android ;
+        color: #063D1E;
+        min-width: none;
+
+    }
+
+    h2{
+        font-size: 30px;
+        color: #063D1E;
+        background-color: #C5EBD6;
+        font-family: android, Arial, Helvetica, sans-serif;
+        min-width: none;
+    }
+    
+    p {
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+        text-align: justify;
+        
+       
+    }
+
+    picture#foto-p {
+        
+        min-width: 150px;
+        max-width: 200px;
+        
+        
+    }
+
+    main > picture {
+      
+      max-width: 800px;
+      min-width: 320px;
+      margin: auto;
+    }
+
+
+    div.video {
+        background-color: #063D1E;
+        position: relative;
+        height: 0px;
+        margin-left: -30px;
+        margin-right: -30px;
+        margin-bottom: 15px;
+        padding-bottom: 59%;
+    }
+    div.video>iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    ul {
+        list-style-type: '\2714\0020\0020';
+        columns: 2;
+        list-style-position: inside;
+        
+    }
+
+    aside {
+        background-color: #C5EBD6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        font-weight:lighter;
+        text-align: justify;
+        text-indent: 3%;
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        margin-left: -30px;
+        margin-right: -30px;
+        margin-bottom: 30px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    
+    h2#titulo2 {
+        background-color: #063D1E;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: -30px;
+        margin-right: -30px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    footer > p {
+       text-align: center;
+       color: white;
+       font-size: 15px;
+       padding-bottom: 0px;
+    }
+    
+    footer {
+         background-color: black;
+         
+
+    }
+
+    p > span.negrito {
+        background-color: white;
+        color: #063D1E;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    span.link {
+      background-color: #063D1E;
+        border-radius: 30px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        
+        
+      
+    }
+     
+    
+    
+
+
+    
